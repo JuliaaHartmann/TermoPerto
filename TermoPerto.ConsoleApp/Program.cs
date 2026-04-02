@@ -1,9 +1,18 @@
-﻿namespace TermoPerto.ConsoleApp;
-
-class Program
+﻿namespace Termo.ConsoleApp
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            ExibirCabecalho();
+        }
+
+        static void ExibirCabecalho()
+        {
+            Console.Clear();
+            Console.WriteLine("================================");
+            Console.WriteLine("---------- TERMO ---------------");
+            Console.WriteLine("================================");
+        }
     }
 }
