@@ -12,3 +12,4 @@ C:\Users\julia\Documents\Academia do Programador\TermoPerto\TermoPerto.ConsoleAp
 C:\Users\julia\Documents\Academia do Programador\TermoPerto\TermoPerto.ConsoleApp\obj\Debug\net10.0\TermoPerto.ConsoleApp.pdb
 C:\Users\julia\Documents\Academia do Programador\TermoPerto\TermoPerto.ConsoleApp\obj\Debug\net10.0\TermoPerto.ConsoleApp.genruntimeconfig.cache
 C:\Users\julia\Documents\Academia do Programador\TermoPerto\TermoPerto.ConsoleApp\obj\Debug\net10.0\ref\TermoPerto.ConsoleApp.dll
+C:\Users\julia\Documents\Academia do Programador\TermoPerto\TermoPerto.ConsoleApp\obj\Debug\net10.0\TermoPerto.ConsoleApp.sourcelink.json
