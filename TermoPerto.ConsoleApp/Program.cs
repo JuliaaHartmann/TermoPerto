@@ -32,6 +32,7 @@ namespace TermoPerto.ConsoleApp
                 if (tentativa == 0)
                     Console.WriteLine();
                     Console.WriteLine("\nVocê atingiu o número máximo de tentativas...");
+                    Console.WriteLine("Aperte ENTER para continuar...");
                     Console.ReadLine();
 
                 if (!DesejaContinuar())
@@ -143,7 +144,7 @@ namespace TermoPerto.ConsoleApp
 
         static bool DesejaContinuar()
         {
-            Console.Write("\nDeseja jogar novamente? (S/N): ");
+            Console.WriteLine("Deseja jogar novamente? (S/N): ");
             string? opcaoContinuar = Console.ReadLine();
 
             if (opcaoContinuar?.ToUpper() != "S")
