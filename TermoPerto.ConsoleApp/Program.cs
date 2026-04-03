@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.ComponentModel.Design;
+using System.Security.Cryptography;
 
 namespace TermoPerto.ConsoleApp
 {
@@ -28,12 +29,38 @@ namespace TermoPerto.ConsoleApp
                     Console.WriteLine("É necessário digitar uma palavra de no máximo 5 letras.");
                     Console.WriteLine("=======================================================");
                 }
+
+                if (chute == palavraAleatoria)
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Console.WriteLine(chute);
+                    Console.ResetColor();
+                    Console.WriteLine($"\nVocê acertou a palavra! Parabéns!");
+                    //break;
+                }
+                
+                for (int letraChute = 0; letraChute < chute.Length; letraChute++)
+                {
+                    Console.Write("< ");
+                    if (chute[letraChute] == palavraAleatoria[letraChute])
+                        Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    else if (palavraAleatoria.Contains(chute))
+                        Console.BackgroundColor = ConsoleColor.DarkYellow;
+                    else
+                        Console.BackgroundColor = ConsoleColor.DarkRed;
+
+                    Console.Write(letraChute);
+                    Console.ResetColor();
+                }        
+
+                if (!DesejaContinuar())
+                    break;
             }
         }
 
         static void ExibirCabecalho()
         {
-            Console.Clear();
+            //Console.Clear();
             Console.WriteLine("=======================================================");
             Console.Write("----------------- TERMO ");
             Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -41,32 +68,31 @@ namespace TermoPerto.ConsoleApp
             Console.ResetColor();
             Console.WriteLine("--------------------");
             Console.WriteLine("=======================================================");
-
         }
 
         static string GerarPalavraAleatoria()
         {
             string[] palavras = [
-                "Amigo",
-                "Verde",
-                "Nuvem",
-                "Tigre",
-                "Vento",
-                "Chuva",
-                "Folha",
-                "Praia",
-                "Sabor",
-                "Falar",
-                "Rosto",
-                "Lente",
-                "Canto",
-                "Brisa",
-                "Ferro",
-                "Pequi",
-                "Nobre",
-                "Tocar",
-                "Firme",
-                "Casal"
+                "AMIGO",
+                "VERDE",
+                "NUVEM",
+                "TIGRE",
+                "VENTO",
+                "CHUVA",
+                "FOLHA",
+                "PRAIA",
+                "SABOR",
+                "FALAR",
+                "ROSTO",
+                "LENTE",
+                "CANTO",
+                "BRISA",
+                "FERRO",
+                "PEQUI",
+                "NOBRE",
+                "TOCAR",
+                "FIRME",
+                "CASAL"
             ];
 
             int indiceAleatorio = RandomNumberGenerator.GetInt32(palavras.Length);
@@ -74,7 +100,16 @@ namespace TermoPerto.ConsoleApp
             string palavraAleatoria = palavras[indiceAleatorio];
 
             return palavraAleatoria;
+        }
 
+        static bool DesejaContinuar()
+        {
+            Console.Write("Deseja continuar? (S/N): ");
+            string? opcaoContinuar = Console.ReadLine();
+
+            if (opcaoContinuar?.ToUpper() != "S")
+                return false;
+            return true;
         }
     }
 }

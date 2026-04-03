@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\Documents\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj": {}
+    "C:\\Users\\julia\\Projetos\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\Documents\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj": {
+    "C:\\Users\\julia\\Projetos\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\Documents\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\Projetos\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj",
         "projectName": "TermoPerto.ConsoleApp",
-        "projectPath": "C:\\Users\\julia\\Documents\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj",
+        "projectPath": "C:\\Users\\julia\\Projetos\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\Documents\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\julia\\Projetos\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
