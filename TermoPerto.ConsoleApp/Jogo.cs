@@ -4,7 +4,7 @@ public static class Jogo
     {
         public static void ExibirCabecalho()
     {
-        //Console.Clear();
+        Console.Clear();
         Console.WriteLine("=======================================================");
         Console.Write("----------------- TERMO ");
         Console.ForegroundColor = ConsoleColor.DarkGreen;

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TermoPerto.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9517fc44dfe3c147819d28f4fb0710ae0af4deb1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b83bcd31fa5482be38e32687d0ca4788c0def8f3")]
 [assembly: System.Reflection.AssemblyProductAttribute("TermoPerto.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TermoPerto.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

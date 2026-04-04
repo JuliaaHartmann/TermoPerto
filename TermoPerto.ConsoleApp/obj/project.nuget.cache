@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E+WCkr9NI0U=",
+  "dgSpecHash": "esU24SqzBNY=",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\Projetos\\Academia do Programador\\TermoPerto\\TermoPerto.ConsoleApp\\TermoPerto.ConsoleApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\julia\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\julia\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\julia\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\julia\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
