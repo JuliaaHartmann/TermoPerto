@@ -5,7 +5,7 @@ class Jogador
         if (string.IsNullOrWhiteSpace(chute))
         {
             Console.WriteLine("=======================================================");
-            Console.WriteLine("Digite uma palavra válida.");
+            Console.WriteLine("------------Digite uma palavra válida------------------");
             Console.WriteLine("=======================================================");
             tentativa++;
             return false;
